@@ -4,8 +4,15 @@
 
 > Five runnable .NET 10 samples that call **Claude Opus 5.5** through **Microsoft Foundry**: code review, effort control, refusal handling, vision, and a bounded tool-calling agent loop.
 
-![.NET 10](https://img.shields.io/badge/.NET-10-512BD4)
+[![build](https://github.com/taswar/ClaudeOpus5.5-Csharp-Demo/actions/workflows/dotnet.yml/badge.svg)](https://github.com/taswar/ClaudeOpus5.5-Csharp-Demo/actions/workflows/dotnet.yml)
+![.NET 10](https://img.shields.io/badge/.NET-10-512BD4?logo=dotnet&logoColor=white)
+![Claude Opus 5.5](https://img.shields.io/badge/Claude-Opus%205.5-D97757?logo=anthropic&logoColor=white)
+![Microsoft Foundry](https://img.shields.io/badge/Microsoft-Foundry-0078D4)
+![Anthropic SDK](https://img.shields.io/badge/Anthropic%20SDK-12.50.0-191919)
+![C# Developers](https://img.shields.io/badge/For-C%23%20Developers-239120)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
+[![GitHub stars](https://img.shields.io/github/stars/taswar/ClaudeOpus5.5-Csharp-Demo?style=social)](https://github.com/taswar/ClaudeOpus5.5-Csharp-Demo/stargazers)
 
 - 📖 Full walkthrough: [Claude Opus 5.5 for C# Developers](https://taswar.zeytinsoft.com/claude-opus-5-5-for-c-developers/)
 - ⭐ If this saved you time, star the repo so other .NET developers can find it.
@@ -95,10 +102,13 @@ Requires the **.NET 10 SDK** (not just the runtime).
 ## Project layout
 
 ```
-ClaudeOpus55FoundryDemo.csproj   Target framework and NuGet references
-Program.cs                       Configuration, the five samples, error handling
-error-dialog.png                 Sample screenshot for the vision sample (4)
-LICENSE                          MIT license
+ClaudeOpus55FoundryDemo.csproj         Target framework and NuGet references
+Program.cs                             Configuration, the five samples, error handling
+error-dialog.png                       Sample screenshot for the vision sample (4)
+ClaudeOpus5.5forCSharpDevelopers.webp  Banner image for this README
+.github/workflows/dotnet.yml           Build workflow that runs on every push and pull request
+CONTRIBUTING.md                        How to report bugs and contribute changes
+LICENSE                                MIT license
 ```
 
 ## Roadmap
