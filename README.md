@@ -14,10 +14,10 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 [![GitHub stars](https://img.shields.io/github/stars/taswar/ClaudeOpus5.5-Csharp-Demo?style=social)](https://github.com/taswar/ClaudeOpus5.5-Csharp-Demo/stargazers)
 
-- 📖 Full walkthrough: [Claude Opus 5.5 for C# Developers](https://taswar.zeytinsoft.com/claude-opus-5-5-for-c-developers/)
+- 📖 Full walkthrough: [Claude Opus 5.5 for C# Developers](https://taswar.zeytinsoft.com/claude-opus-5-5-for-c-developers/?utm_source=github&utm_medium=readme&utm_campaign=ClaudeOpus5.5-Csharp-Demo&utm_content=walkthrough)
 - ⭐ If this saved you time, star the repo so other .NET developers can find it.
 - 🔁 Related: [Claude Haiku 5.5 C# Demo](https://github.com/taswar/Claude-Haiku-5.5-CSharp-Demo), the fast, low-cost Claude model that pairs with Opus as a subagent
-- For more C# samples using other AI models, see [AI models for C# developers](https://taswar.zeytinsoft.com/foundry-ai-models-csharp/)
+- For more C# samples using other AI models, see [AI models for C# developers](https://taswar.zeytinsoft.com/foundry-ai-models-csharp/?utm_source=github&utm_medium=readme&utm_campaign=ClaudeOpus5.5-Csharp-Demo&utm_content=ai-models-hub)
 - For my free ebook on prompt engineering, see [Prompt Engineering for .NET Developers](https://github.com/taswar/PromptEngineeringForDotNetDevelopers)
 
 No framework to learn and no wrapper library: one small console app that shows what the Anthropic SDK for .NET can do, so you can copy the parts you need.
@@ -124,7 +124,7 @@ Have an idea? [Open an issue](https://github.com/taswar/ClaudeOpus5.5-Csharp-Dem
 
 ## Learn more
 
-- [Claude Opus 5.5 for C# Developers (blog post)](https://taswar.zeytinsoft.com/claude-opus-5-5-for-c-developers/)
+- [Claude Opus 5.5 for C# Developers (blog post)](https://taswar.zeytinsoft.com/claude-opus-5-5-for-c-developers/?utm_source=github&utm_medium=readme&utm_campaign=ClaudeOpus5.5-Csharp-Demo&utm_content=walkthrough)
 - [Use Anthropic Claude models in Microsoft Foundry](https://learn.microsoft.com/azure/foundry/foundry-models/how-to/use-foundry-models-claude)
 - [.NET Secret Manager](https://learn.microsoft.com/aspnet/core/security/app-secrets)
 
