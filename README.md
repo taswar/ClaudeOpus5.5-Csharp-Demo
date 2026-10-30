@@ -1,4 +1,4 @@
-# Claude Opus 5.5 for C# Developers
+# Claude Opus 5.5 for C# Developers .NET 10
 
 ![Claude Opus 5.5 for C# Developers](ClaudeOpus5.5forCSharpDevelopers.webp)
 
