@@ -1,5 +1,7 @@
 # Claude Opus 5.5 for C# Developers
 
+![Claude Opus 5.5 for C# Developers](ClaudeOpus5.5forCSharpDevelopers.webp)
+
 > Five runnable .NET 10 samples that call **Claude Opus 5.5** through **Microsoft Foundry**: code review, effort control, refusal handling, vision, and a bounded tool-calling agent loop.
 
 ![.NET 10](https://img.shields.io/badge/.NET-10-512BD4)
