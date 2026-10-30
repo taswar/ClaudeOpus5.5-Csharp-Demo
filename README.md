@@ -4,9 +4,12 @@
 
 ![.NET 10](https://img.shields.io/badge/.NET-10-512BD4)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
-<!-- After adding the workflow: ![build](https://github.com/taswar/ClaudeOpus5.5-Csharp-Demo/actions/workflows/build.yml/badge.svg) -->
 
-<!-- TODO: add a screenshot or GIF of `dotnet run -- 1` (the code review) or `dotnet run -- 5` (the tool loop). A visual here is the single biggest thing you can add. -->
+- 📖 Full walkthrough: [Claude Opus 5.5 for C# Developers](https://taswar.zeytinsoft.com/claude-opus-5-5-for-c-developers/)
+- ⭐ If this saved you time, star the repo so other .NET developers can find it.
+- 🔁 Related: [Claude Haiku 5.5 C# Demo](https://github.com/taswar/Claude-Haiku-5.5-CSharp-Demo), the fast, low-cost Claude model that pairs with Opus as a subagent
+- For more C# samples using other AI models, see [AI models for C# developers](https://taswar.zeytinsoft.com/foundry-ai-models-csharp/)
+- For my free ebook on prompt engineering, see [Prompt Engineering for .NET Developers](https://github.com/taswar/PromptEngineeringForDotNetDevelopers)
 
 No framework to learn and no wrapper library: one small console app that shows what the Anthropic SDK for .NET can do, so you can copy the parts you need.
 
@@ -58,7 +61,9 @@ dotnet run -- 4 ./error-dialog.png   # vision
 dotnet run -- all        # everything
 ```
 
-Not sure which value to use for the resource name, or using WSL? See the **[setup guide](docs/SETUP.md)**.
+**Resource name:** use the first part of your Foundry endpoint. For `https://my-resource.services.ai.azure.com/anthropic`, set `my-resource`. The full URL also works.
+
+**Using WSL?** User secrets are stored separately for Windows and WSL, so run the `dotnet user-secrets set` commands in the same environment where you run the app.
 
 ## Why this repo
 
@@ -90,12 +95,11 @@ Requires the **.NET 10 SDK** (not just the runtime).
 ```
 ClaudeOpus55FoundryDemo.csproj   Target framework and NuGet references
 Program.cs                       Configuration, the five samples, error handling
-docs/SETUP.md                    Detailed setup, WSL notes, troubleshooting
+error-dialog.png                 Sample screenshot for the vision sample (4)
+LICENSE                          MIT license
 ```
 
 ## Roadmap
-
-<!-- Keep only the items you actually plan to build. Visible progress encourages stars and contributions. -->
 
 - [ ] Run with a plain Anthropic API key (no Azure required)
 - [ ] Split samples into separate files under `samples/`
@@ -114,6 +118,6 @@ Have an idea? [Open an issue](https://github.com/taswar/ClaudeOpus5.5-Csharp-Dem
 
 ## License
 
-MIT. See [LICENSE](LICENSE). <!-- Add a LICENSE file, or remove this section and the badge. -->
+MIT. See [LICENSE](LICENSE).
 
 If this saved you time, a ⭐ helps other .NET developers find it.
